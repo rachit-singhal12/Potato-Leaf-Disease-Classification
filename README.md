@@ -6,7 +6,7 @@ Project Objectives:
 The primary objective is to create an intuitive interface allowing farmers to capture leaf images effortlessly. Through this interface, the application identifies and categorizes the type of disease present on the leaf. This real-time disease detection capability is pivotal for farmers as it aids in timely intervention, enabling them to apply necessary treatments promptly. By addressing diseases at their onset, the project aims to minimize economic losses and decrease wastage in potato cultivation.
 
 Development Process:
-##Data Collection: Comprehensive gathering of a diverse dataset comprising potato leaf images showcasing various stages and types of diseases.
+Data Collection: Comprehensive gathering of a diverse dataset comprising potato leaf images showcasing various stages and types of diseases.
 
 Data Cleaning and Preprocessing: Ensuring dataset uniformity and readiness for effective analysis. This involves tasks such as standardization, noise reduction, and labeling.
 
