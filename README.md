@@ -26,7 +26,7 @@ Predicting Output: Empowering users to capture leaf images through the applicati
 
 Model Performance:
 
-The implemented CNN model showcases commendable performance, achieving an accuracy of approximately 96% after 20 epochs and demonstrating significant improvement to around 99.7% after 50 epochs. The iterative increase in epoch count correlates with enhanced accuracy, ensuring a more precise disease classification.
+The implemented CNN model showcases commendable performance, achieving an accuracy of approximately 96% after 20 epochs and demonstrating significant improvement to around 99.1% after 50 epochs. The iterative increase in epoch count correlates with enhanced accuracy, ensuring a more precise disease classification.
 
 Impact:
 
