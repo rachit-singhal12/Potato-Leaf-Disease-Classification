@@ -1,6 +1,6 @@
 Potato Leaf Disease Classification
 
-This project represents a comprehensive approach to Potato Leaf Disease Classification by harnessing Deep Learning techniques, specifically CNN (Convolution Neural Network) architectures implemented through TensorFlow. The project encompasses the development of a user-friendly application employing React JS for web-based functionality and React Native for mobile devices. This technology caters directly to the agricultural domain, offering crucial support to potato farmers who frequently encounter challenges due to diseases like Early Blight and Late Blight affecting their crops.
+This project represents a comprehensive approach to Potato Leaf Disease Classification by harnessing Deep Learning techniques, specifically CNN (Convolution Neural Network) architectures implemented through TensorFlow. The project encompasses the development of a user-friendly application employing html,css for web-based functionality. This technology caters directly to the agricultural domain, offering crucial support to potato farmers who frequently encounter challenges due to diseases like Early Blight and Late Blight affecting their crops.
 
 Project Objectives:
 
@@ -26,7 +26,7 @@ Predicting Output: Empowering users to capture leaf images through the applicati
 
 Model Performance:
 
-The implemented CNN model showcases commendable performance, achieving an accuracy of approximately 96% after 20 epochs and demonstrating significant improvement to around 99.1% after 50 epochs. The iterative increase in epoch count correlates with enhanced accuracy, ensuring a more precise disease classification.
+The implemented CNN model showcases commendable performance, achieving an accuracy of approximately 98% after 20 epochs and demonstrating significant improvement to around 99.61% after 50 epochs. The iterative increase in epoch count correlates with enhanced accuracy, ensuring a more precise disease classification.
 
 Impact:
 
