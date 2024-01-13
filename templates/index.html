@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        form {
+            display: inline-block;
+            border: 2px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        input[type="file"] {
+            margin-bottom: 15px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Image for Prediction</h1>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*">
+            <input type="submit" value="Predict">
+        </form>
+        <p id="result"></p>
+        <label>{{ data }}</label>
+        <label>{{ message }}</label>
+        {% if data == 'Potato___Early_blight' %}
+        <div style="text-align : center"><a href="https://ipm.ucanr.edu/agriculture/potato/early-blight/#:~:text=infect%20the%20tubers.-,Management,enough%20to%20cause%20economic%20loss"><p>Click Here..</p></a></div>
+        {% endif %}
+        {% if data == 'Potato___Late_blight' %}
+        <div style="text-align : center"><a href="https://ipm.ucanr.edu/agriculture/potato/late-blight/#:~:text=favor%20the%20disease.-,Management,foliage%20each%20day%20is%20important"><p>Click Here..</p></a></div>
+        {% endif %}
+    </div>
+    <p id="result"></p>
+</body>                                                                                                                 
+</html>
